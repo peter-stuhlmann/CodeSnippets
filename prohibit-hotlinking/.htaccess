@@ -1,4 +1,4 @@
-Prohibit hotlinking
+# Prohibit hotlinking
 <ifmodule mod_rewrite.c>
 RewriteEngine on
 RewriteCond %{HTTP_REFERER} !^$
