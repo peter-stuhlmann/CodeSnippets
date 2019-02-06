@@ -1,0 +1,10 @@
+Prohibit hotlinking
+<ifmodule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^https://(www\.)?your-website\.com(/.*)?$ [NC]
+RewriteCond %{HTTP_REFERER} !^https://www\.google\..*$ [NC]
+RewriteCond %{HTTP_REFERER} !^https://www\.bing\..*$ [NC]
+RewriteCond %{REQUEST_URI} !^.*alternate-picture\.png$ [NC]
+RewriteRule \.(gif|jpg|GIF|JPG|png|PNG)$ https://your-website.com/alternate-picture.png [R,L]
+</ifmodule>
