@@ -7,3 +7,5 @@
 
 **add-a-span-to-a-part-of-a-word-with-javascript** e.g. add a span to the site title of your Wordpress page and style individual letters
 
+**replace-something** Replace a word/number or a whole text with one shell command
+
