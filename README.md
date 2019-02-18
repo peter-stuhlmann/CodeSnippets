@@ -9,3 +9,5 @@
 
 **replace-something** Replace a word/number or a whole text with one shell command
 
+**youtube-dl** Download videos or audios from youtube and some other platforms with the shell
+
