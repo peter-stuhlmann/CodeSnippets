@@ -14,3 +14,19 @@ alias 5up ='cd ../../../../../'
 alias push = 'git push origin master'
 alias commit = 'git commit -m'
 ```
+
+**Wordpress**
+
+_start wordpress_
+
+```
+alias wordpress = 'sudo /opt/lampp/lampp start'
+```
+_switch to wp theme directory_
+```
+alias wpthemes = 'cd /opt/lampp/htdocs/wordpress/wp-content/themes'
+```
+_switch to wp plugin directory_
+```
+alias wpplugins = 'cd /opt/lampp/htdocs/wordpress/wp-content/plugins'
+```
