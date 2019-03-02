@@ -30,3 +30,15 @@ _switch to wp plugin directory_
 ```
 alias wpplugins = 'cd /opt/lampp/htdocs/wordpress/wp-content/plugins'
 ```
+
+**SASS compiler**  
+_(1) Write this code snippet in the .bashrc:_
+```
+function sassy {
+    node-sass --watch --recursive --output "$1" --source-map true --source-map-contents "$2"
+}
+```
+_(2) Write this code snippet in the shell:_
+```
+$ sassy css-directory scss-directory
+```
